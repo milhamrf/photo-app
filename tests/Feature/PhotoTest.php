@@ -19,7 +19,7 @@ class PhotoTest extends TestCase
     
      public function test_it_can_show_all_photo(): void
      {
-         $response = $this->get('/photoss');
+         $response = $this->get('/photos');
   
          $response->assertStatus(200);
      }
